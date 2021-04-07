@@ -1,12 +1,12 @@
 class SuperHero
-  attr_accessor :name, :power, :biography
+  attr_accessor :name, :power, :bio
   
   @@all = []
   
   def initialize(details)
     @name = name
     @power = power
-    @biography = biography
+    @bio = bio
     @@all << self
   end
   
