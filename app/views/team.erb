@@ -1,0 +1,10 @@
+<h1><%= @team.name %></h1>
+<h2><%= @pteam.motto %></h2>
+
+<% @heroes.each do |hero| %>
+  <div class="heroes">
+    <h2><%= team[hero].name %></h2><br>
+    <p><%= ship.type %></p><br>
+    <p><%= ship.booty %></p><br>
+  </div><br>
+<% end %>
